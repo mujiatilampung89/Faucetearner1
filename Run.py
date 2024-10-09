@@ -122,7 +122,7 @@ class CLAIM:
 if __name__ == '__main__':
     try:
         if os.path.exists("Data/Subscribe.json") == False:
-            youtube_url = json.loads(requests.get('https://raw.githubusercontent.com/RozhakXD/Faucetearner1/main/Data/Youtube.json').text)['Link']
+            youtube_url = json.loads(requests.get('https://raw.githubusercontent.com/mujiatilampung89/Faucetearner1/main/Data/Youtube.json').text)['Link']
             os.system(f'xdg-open {youtube_url}')
             with open('Data/Subscribe.json', 'w') as w:
                 w.write(json.dumps({
