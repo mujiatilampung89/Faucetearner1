@@ -62,15 +62,15 @@ class CLAIM:
                 'Cookie': COOKIES['KEY']
             })
             if 'congratulations' in str(response2.text).lower():
-                try: # Congratulations on receiving 0.000000 It has been deposited into your account balance and can be viewed on the dashboard!
+                try: # Congratulations on receiving 1.000000 It has been deposited into your account balance and can be viewed on the dashboard!
                     self.XRP_earn = (str(response2.text).split(' XRP')[0].split('0.')[1])
                 except (IndexError):
-                    self.XRP_earn = ("0.000000")
+                    self.XRP_earn = ("1.000000")
                 XRP.update({
                     "KEY": f"0.{self.XRP_earn}"
                 })
                 print(Panel(f"[italic green]Congratulations on receiving {XRP['KEY']} XRP, It has been deposited into your account balance and can be viewed on the dashboard!!", style="bold bright_black", width=56, title=">>> Sukses <<<"))
-                for sleep in range(60, 0, -1):
+                for sleep in range(10, 0, -1):
                     print(f"[bold bright_black]   ╰─>[bold green] {sleep}[bold white]/[bold green]{XRP['KEY']}[bold white] Sukses:-[bold green]{len(SUKSES)}[bold white] Gagal:-[bold red]{len(GAGAL)}     ", end='\r')
                     time.sleep(1.0)
                 SUKSES.append(f'{response2.text}')
@@ -122,7 +122,7 @@ class CLAIM:
 if __name__ == '__main__':
     try:
         if os.path.exists("Data/Subscribe.json") == False:
-            youtube_url = json.loads(requests.get('https://raw.githubusercontent.com/RozhakXD/Faucetearner/main/Data/Youtube.json').text)['Link']
+            youtube_url = json.loads(requests.get('https://raw.githubusercontent.com/RozhakXD/Faucetearner1/main/Data/Youtube.json').text)['Link']
             os.system(f'xdg-open {youtube_url}')
             with open('Data/Subscribe.json', 'w') as w:
                 w.write(json.dumps({
