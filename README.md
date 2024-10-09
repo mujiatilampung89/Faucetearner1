@@ -4,11 +4,11 @@
   <br>
   <br>
   <p>
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rozhakxd/Faucetearner">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/rozhakxd/Faucetearner">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mujiatilampung89/Faucetearner1">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/mujiatilampung89/Faucetearner1">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rozhakxd/Faucetearner">
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rozhakxd/Faucetearner">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/mujiatilampung89/Faucetearner1">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/mujiatilampung89/Faucetearner1">
     <img alt="Maintenance" src="https://img.shields.io/maintenance/no/2024">
   </p>
   <h4> Get XRP Token Using Termux ! </h4>
@@ -17,7 +17,7 @@
 ##
 
 ### What is Faucetearner?
-[**FaucetEarner**](https://github.com/RozhakXD/Faucetearner) is a tools that allows you to claim XRP tokens randomly within 1 minute. The following are the features of this tool:
+[**FaucetEarner**](https://github.com/mujiatilampung89/Faucetearner1) is a tools that allows you to claim XRP tokens randomly within 1 minute. The following are the features of this tool:
 
 - This tool is easy to use and does not require any technical knowledge.
 - You can claim XRP tokens in just 1 minute.
@@ -28,14 +28,14 @@ First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) to
 ```
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
-$ git clone https://github.com/RozhakXD/Faucetearner
-$ cd "Faucetearner"
+$ git clone https://github.com/mujiatilampung89/Faucetearner1
+$ cd "Faucetearner1"
 $ python -m pip install -r requirements.txt
 $ python Run.py
 ```
 
 ```
-$ cd "$HOME/Faucetearner" && git pul
+$ cd "$HOME/Faucetearner1" && git pul
 $ python Run.py
 ```
 
